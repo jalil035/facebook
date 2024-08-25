@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.bg_colo_custom{
+    background-color: #e0e0e063;
+}
+.left{
+    padding: 0 5rem 0 2rem;
+}
+.left h1 {
+    font-size: 8rem;
+    font-weight: 700;
+    color: #0062e1;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.left p {
+    font-size: 3rem;
+}
+
+.right {
+    background-color: white;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px .5rem 1.5rem;
+    border-radius: .8rem;
+    width: 40rem;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+form input {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem auto;
+    border: 1px solid #dddfe2;
+    border-radius: .6rem;
+    font-size: 1.8rem;
+}
+
+form button{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: .8rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+form a {
+    color: #1877f2;
+    text-decoration: none;
+    display: block;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #dddfe2;
+    margin: 20px 0;
+}
+
+.create-account {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: .8rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.bottom_text{
+    margin: 3rem 0 0 4rem;
+    font-size: 1.5rem;
+}
+.bottom_text a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+a:hover{
+    text-decoration: underline;
+}
+.footer_body_text{
+    padding: 5rem 4rem;
+}
+.footer_body_text a, span{
+    text-decoration: none;
+    color: rgb(113, 113, 113);
+    font-size: 1.4rem;
+    padding: .4rem;
+    line-height: 3rem;
+}
+a:hover{
+    text-decoration: underline;
+}
